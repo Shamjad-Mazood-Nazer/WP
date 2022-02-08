@@ -1,0 +1,12 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<?php
+			ECHO"caps<br>";
+			echo"small<br>";
+			EcHo"Camelcase<br>";
+		?>
+	</body>
+</html>

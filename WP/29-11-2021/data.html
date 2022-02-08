@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>MyForm</title>
+	</head>
+	<body>
+		<center>
+			<h3>Enter Your Details Below!</h3>
+		</center>
+		<table>
+			<form name="myForm" method="GET" action="display.html" id="data">
+				<tr>
+					<td>Name : </td>
+					<td><input type="text" name="name" placeholder="Enter Your Name Here!"><br></td>
+				</tr>
+				<tr>
+					<td>phone : </td>
+					<td><input type="tel" name="phone" placeholder="Enter Your Mobile Number Here!"><br></td>
+				</tr>
+				<tr>
+					<td>Email : </td>
+					<td><input type="email" name="email" placeholder="Enter Your Mail ID Here!"><br></td>
+				</tr>
+				<tr>
+					<td>Address : </td>
+					<td><textarea name="address" rows="5" cols="32"></textarea><br></td>
+				</tr>
+				<tr>
+					<td>Hobbies : </td>
+					<td>
+						<input type="checkbox" name="hobby1">Playing
+						<input type="checkbox" name="hobby2">Music<br>
+						<input type="checkbox" name="hobby3">Watching TV
+						<input type="checkbox" name="hobby4">Travel<br>
+					</td>
+				</tr>
+				<tr>
+					<td>Sex :</td>
+					<td>
+						<input type="radio" name="sex">Male
+						<input type="radio" name="sex">Female
+					</td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="submit" name="submit"></td>
+					<td><input type="reset" value="reset" name="reset"></td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,144 @@
+<html>
+	<head><center><b><u>STUDENT REGISTRATION FORM</u></b>
+<!--		<style>
+			table, th, td {
+			border: 1px solid black;
+			}
+		</style> -->
+	</head><br><br><br>
+	<TITLE>REGISTRATION FORM</TITLE>
+	<body>
+		<form name="myform" action="#" method="POST">
+			<table border="1">
+				<tr>
+					<td padding="15px">First Name</td>
+					<td>
+						<input type="text" size="20" name="fname" max="50" placeholder="Enter First name!" required>(Max 50 Characters Allowed)
+					</td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td>
+						<input type="text" size="20" name="lname" max="50" placeholder="Enter Second name!" required>(Max 50 Characters Allowed)
+					</td>
+				</tr>
+				<tr>
+					<td>Email ID</td>
+					<td>
+						<input type="email" size="20" name="email" placeholder="Enter Email!" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Mobile Number</td>
+					<td>
+						<input type="phone" size="20" name="number" max="11" placeholder="Enter 10 Digit Mobile Number" required>(10 Digits Allowed)
+					</td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="sex">Male
+						<input type="radio" name="sex">Female
+					</td>					</tr>
+				<tr>
+					<td>Date of Birth</td>
+					<td>
+						<input type="date" name="dob">
+					</td>
+				</tr>
+				<tr>
+					<td>Address</td>
+					<td>
+						<textarea type="text" name="address" rows="3" cols="32" placeholder="Enter Your Address" required></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>District</td>
+					<td>
+						<select name="city">
+        						<option value="Trivandrum">Trivandrum</option>
+        						<option value="Kollam">Kollam</option>
+        						<option value="Pathanamthitta">Pathanamthitta</option>
+        						<option value="Alappuzha">Alappuzha</option>
+        						<option value="Kottayam">Kottayam</option>
+        						<option value="Idukki">Idukki</option>
+        						<option value="Eranakulam">Eranakulam</option>
+        						<option value="Thrissur">Thrissur</option>
+        						<option value="Palakkad">Palakkad</option>
+        						<option value="Malappuram">Malappuram</option>
+        						<option value="Kozhikode">Kozhikode</option>
+        						<option value="Wayanad">Wayanad</option>
+        						<option value="Kannur">Kannur</option>
+        						<option value="Kasaragod">Kasaragod</option>
+        					</select>
+        				</td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td>
+						<input type="text" size="20" name="city" max="50" placeholder="Enter First name hear!" required>(Max 50 Characters Allowed)
+					</td>
+				</tr>
+				<tr>
+					<td>Pin Code</td>
+					<td>
+						<input type="pin" size="20" name="pincode" max="6" placeholder="Enter 6 Digit PIN" required>(Max 6 Digits Allowed)
+					</td>
+				</tr>
+				<tr>
+					<td>Nationality</td>
+					<td>
+						<input type="text" size="20" name="nationality" value="Indian" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Hobbies</td>
+					<td>
+						<input type="checkbox" name="hobbie1">Singing
+						<input type="checkbox" name="hobbie2">Drawing
+						<input type="checkbox" name="hobbie3">Playing
+						<input type="checkbox" name="hobbie4">Dancing
+						<input type="checkbox" name="hobbie5">others<br>
+					if others, please specify<input type="text" name="hobbie6" max="10" placeholder="Enter You Hobbie"></td>
+				</tr>
+				<tr>
+					<td>Qualifications</td>
+					<td>
+						<input type="checkbox" name="q1">High School<br>
+						<input type="checkbox" name="q2">Higher Secondary<br>
+						<input type="checkbox" name="q3">Graduation(Bachelors)<br>
+						<input type="checkbox" name="q4">Post Graduation(Masters)<br>
+						<input type="checkbox" name="q5">Phd</td>
+				</tr>
+				<tr>
+					<td>Course Applied for</td>
+					<td>
+						<input type="radio" name="pgm">B.Tech MECHANICAL ENGG.<br>
+						<input type="radio" name="pgm">B.Tech COMPUTER SCIENCE ENGG.<br>
+						<input type="radio" name="pgm">B.Tech ELECTRONICS & COMMUNICATION ENGG.<br>
+						<input type="radio" name="pgm">B.Tech ELECTRICAL & ELECTRONICS ENGG.<br>
+						<input type="radio" name="pgm">B.Tech FOOD TECHNOLOGY<br>
+						<input type="radio" name="pgm">MCA INTEGRATED<br>
+						<input type="radio" name="pgm">MCA REGULAR<br>
+						<input type="radio" name="pgm">B.Tech CHEMICAL ENGG.<br>
+						<input type="radio" name="pgm">B.Tech POLYMER CHEMISTRY
+					</td>
+				</tr>
+				<tr>
+					<td>Roll Number</td>
+					<td>
+						<input type="number" min="1" max="60" name="rollno" placeholder="Select from 1 - 60" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" name="submit" value="SUBMIT">
+					</td>
+					<td>
+						<input type="reset" name="reset" value="CLEAR">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
